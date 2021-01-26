@@ -9,13 +9,13 @@ public class MainPlantShopProgram {
             choice = Integer.parseInt(sc.nextLine());
             switch (choice) {
                 case 1:
-                    plants.addProduct();
+                    plants.listAllproduct();
                     break;
                 case 2:
-                    
+                    plants.addProduct();
                     break;
                 case 3:
-
+                    
                     break;
                 case 4:
                     System.out.println("Bye! Bye!");
