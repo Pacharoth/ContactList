@@ -80,7 +80,7 @@ public class ContactList {
 
     public Contact findByName(String name) {
         for (Contact contact : contacts) {
-            if (name.equals(contact.getFirstName()) || name.equalsIgnoreCase(contact.getLasttName())
+            if (name.equalsIgnoreCase(contact.getFirstName()) || name.equalsIgnoreCase(contact.getLasttName())
                     || name.equalsIgnoreCase(contact.getFirstName() + contact.getLasttName())) {
                 return contact;
             }
